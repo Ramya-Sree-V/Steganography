@@ -90,11 +90,11 @@ def save():
     pass  # Save functionality is handled in the Hide function
 
 # ICON
-image_icon = PhotoImage(file="C://Users//miarv//OneDrive//Desktop//SRM-AP//Cyber Security//Edunet_IBM_Internship//Steganography_project//fairy.jpg")
+image_icon = PhotoImage(file="fairy.jpg")
 root.iconphoto(False, image_icon)
 
 # LOGO
-logo = PhotoImage(file="C://Users//miarv//OneDrive//Desktop//SRM-AP//Cyber Security//Edunet_IBM_Internship//Steganography_project//circle.png")
+logo = PhotoImage(file="circle.png")
 Label(root, image=logo, bg="#2c041d").place(x=10, y=0)
 
 Label(root, text="CYBER SCIENCE", bg="#2c041d", fg="white", font="arial 25 bold").place(x=100, y=20)
